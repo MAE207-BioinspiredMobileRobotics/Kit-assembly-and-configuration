@@ -11,25 +11,25 @@ __Disclaimer: While we are using low-voltages (24V) it is still important to fol
 ![The kit components](all1.png)
 
 ## Item list (each group): 
-1.BLDC motors 335KV x2 (with M3x10mm bolts x8)
+1. BLDC motors 335KV x2 (with M3x10mm bolts x8)
 
-2.Laser cut legs and spacers x5
+2. Laser cut legs and spacers x5
 
-3.21A~24V DC power supply x1
+3. 21A~24V DC power supply x1
 
-4.AMT 102 CUI encoder x2 (with 4 flat head M3 bolts)
+4. AMT 102 CUI encoder x2 (with 4 flat head M3 bolts)
 
-5.ODrive x1 BLDC driver
+5. ODrive x1 BLDC driver
 
-6.M4 bolts x8 and nuts x8
+6. M4 bolts x8 and nuts x8
 
-7.Jumper wires  (>=11)
+7. Jumper wires  (>=11)
 
-8.8020 T-slot aluminum frame x2
+8. 8020 T-slot aluminum frame x2
 
-9.allen wrench M2.5 x1
+9. allen wrench M2.5 x1
 
-10.allen wrench M3 x1
+10. allen wrench M3 x1
 
 11. 15ft power coord (will be chopped into three pieces for the power supply and motor cables)
 
@@ -37,12 +37,11 @@ __Disclaimer: While we are using low-voltages (24V) it is still important to fol
 
 ## Mechanical setup (phase 1)
 
-1.Encoder connection: using 2 M3 bolts to connect the encoder on the back of the shaft of the DC motor.
-
+1. Encoder connection: using 2 M3 bolts to connect the encoder on the back of the shaft of the DC motor.
 
 ![combined](combined1.png)
 
-2.Fasten the motor on to the acrylic mounts then fasten the whole thing onto the 8020s, adjust the distance of the 2 motors as you want. 
+2. Fasten the motor on to the acrylic mounts then fasten the whole thing onto the 8020s, adjust the distance of the 2 motors as you want. 
 
 
 ![combined2](combined2.png)
@@ -59,9 +58,9 @@ _Note_: (on the power supply)
      * -V <--> -V (ODrive) 
                                  
 
-2.Motors (3 wires on each) connected to both M0 and M1 port (__does not matter what sequence they are, as long as they are connected. The sequence will only affect the motor default rotary direction__.)
+2. Motors (3 wires on each) connected to both M0 and M1 port (__does not matter what sequence they are, as long as they are connected. The sequence will only affect the motor default rotary direction__.)
 
-3.Encoder must to be connected correctly using 4 jumper wires, __or the encoder will be burned!!__
+3. Encoder must to be connected correctly using 4 jumper wires, __or the encoder will be burned!!__
   
   | Encoder   | ODrive   |
   |-----------|:--------|
@@ -70,7 +69,7 @@ _Note_: (on the power supply)
   | Channel A |  A|
   | Channel B | B|
   
-4.Programmer connection is quite the same as the encoder, __GND has to be connected first!!__ [Ctrl+F --> "SWC" on this page](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md)
+4. Programmer connection is quite the same as the encoder, __GND has to be connected first!!__ [Ctrl+F --> "SWC" on this page](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md)
   
   | Programmer  | ODrive   |
   |-----------|:--------|
@@ -78,7 +77,7 @@ _Note_: (on the power supply)
   | SWCLK        | SWC|
   | SWDIO |   SWD|
   
-5.Solder two lead wires to the shunt resistor and attach it to the ODrive board (__AUX__)
+5. Solder two lead wires to the shunt resistor and attach it to the ODrive board (__AUX__)
   
 ![electronic connection odrive](1111.png)
 
@@ -86,14 +85,27 @@ Now we finished all the electronic connection parts  (o_o)!
 
 ## Software configuration:
 
-1.Download Python 3 and Jupyter Lab as mentioned in class. (__Windows 10/8/7 can use Anaconda, install python and jupyter lab from there__) [Anaconda Downloads](https://www.anaconda.com/download/#linux)
+1. Download Python 3 and Jupyter Lab as mentioned in class. (__Windows 10/8/7 can use Anaconda, install python and jupyter lab from there__) [Anaconda Downloads](https://www.anaconda.com/download/#linux)
 
-2.Download VSCode for firmware flashing [VSCode](https://code.visualstudio.com/)
+2. Download VSCode for firmware flashing [VSCode](https://code.visualstudio.com/). This will be used to program the ODrive firmware.
 
-3.Download the whole zip folder on the website and follow the steps in setting up the firmware [ODrive github firmware](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md)
+3. Download the whole zip folder on the website and follow the steps in setting up the firmware [ODrive github firmware](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md)
 
 ## Testing communication and control of the motors without the legs
-1. Following the [instructions](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md) on the ODrive website setup the firmware 
+
+1. Following the [instructions](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md) on the ODrive website setup the firmware. 
+    a. Change the motor poles to XX.
+    b. Verify the encoder CPR is XX.
+    c. Connect the programmer and build and flash the firmware.
+
+2. Open up a terminal and navigate to the folder with the ```explore_odrive.py``` file. 
+
+3. Run the command ```python explore_odrive.py``` which drops you in an interactive shell. 
+
+4. Try and test the encoder. Run the command XX.
+
+5. Lastly move the motor a short distance. Run the command XX.
+
 
 ## Attach legs
 
