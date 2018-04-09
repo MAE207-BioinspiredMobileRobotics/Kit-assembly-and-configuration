@@ -114,7 +114,7 @@ Now we finished all the electronic connection parts  (o_o)!
 Using the legs as a manipulator to draw your name (a pen should be inserted)
 
 
-![combined3](combined3.png)
+![combined5](combined5.png)
 
 
 
