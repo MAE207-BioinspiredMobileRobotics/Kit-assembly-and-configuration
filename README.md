@@ -94,8 +94,11 @@ Now we finished all the electronic connection parts  (o_o)!
 ## Testing communication and control of the motors without the legs
 
 1. Following the [instructions](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md) on the ODrive website setup the firmware. 
+
     a. Change the motor poles to 7.
+    
     b. Verify the encoder CPR is 2048*4.
+    
     c. Connect the programmer and build and flash the firmware.
 
 2. Open up a terminal and navigate to the folder with the ```explore_odrive.py``` file. 
@@ -104,7 +107,7 @@ Now we finished all the electronic connection parts  (o_o)!
 
 4. Try and test the encoder. Run the command ``` print(my_drive.motor0.encoder.pll_pos,my_drive.motor0.encoder.pll_pos)```. (rotate the motor shaft and run this command again and you'll see the change.)
 
-5. Lastly move the motor a short distance. Run the command ``` my_drive.motor0.set_pos_setpoint (a1,a2,a3)```. (a1--position gain, a2--vel gain, a3--current gain). The same with motor1 ``` my_drive.motor1.set_pos_setpoint (a1,a2,a3)```
+5. Lastly move the motor a short distance. Run the command ``` my_drive.motor0.set_pos_setpoint (a1,a2,a3)```. (a1--position setpoint, a2--feedforward velocity, a3--feedforward current). The same with motor1 ``` my_drive.motor1.set_pos_setpoint (a1,a2,a3)```
 
 
 ## Attach legs
