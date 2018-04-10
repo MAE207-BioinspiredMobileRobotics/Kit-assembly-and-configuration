@@ -7,6 +7,8 @@ __Disclaimer: While we are using low-voltages (24V) it is still important to fol
 
 # Assembly instructions
 
+Follow all instructions carefully! The general order of operations should be: 1) encoder and motor mounting (but no legs), 2) configuring your programming environment and flashing the ODrive (follow all ODrive instructions carefully!), 3) Testing the ODrive through ```explore_odrive.py```, 4) Connect the legs.
+
 
 ![The kit components](all1.png)
 
@@ -57,11 +59,13 @@ __Disclaimer: While we are using low-voltages (24V) it is still important to fol
 1. The power supply is connected to the wall using the provided 3-wire cord. Cut the 3-wire coord (__while unplugged!__) approximately 2 feet from the plug end. Strip the wires and connect the color codes to the power supply terminals (see the table below). Use two 12 gauge wires to connect the power supply to the ODrive. 
 
 _Note_: (on the power supply)  
-     * G-green
-     * N-black
-     * L-white
-     * +V <--> +V (ODrive)
-     * -V <--> -V (ODrive) 
+| Power supply terminal | Connected to |
+| --- | --- |
+| G (the ground symbol) | Green wire | 
+| N | Black wire | 
+| L | White wire | 
+| +V | +V (ODrive) |
+| -V | -V (ODrive) |
                                  
 
 2. Motors (3 wires on each) connected to both M0 and M1 port (__does not matter what sequence they are, as long as they are connected. The sequence will only affect the motor default rotary direction__.)
