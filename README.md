@@ -35,6 +35,12 @@ __Disclaimer: While we are using low-voltages (24V) it is still important to fol
 
 12. Surge protector
 
+13.Clamp
+
+14.r4z (1/4''-5/8'') bearings x3
+
+15.(1/4-20) bolts and nuts x3 pairs
+
 ## Mechanical setup (phase 1)
 
 1. Encoder connection: using 2 M3 bolts to connect the encoder on the back of the shaft of the DC motor.
