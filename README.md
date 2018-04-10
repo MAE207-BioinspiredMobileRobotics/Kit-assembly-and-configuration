@@ -60,7 +60,7 @@ Follow all instructions carefully! The general order of operations should be: 1)
 
 _Note_: (on the power supply)  
 | Power supply terminal | Connected to |
-| --- | --- |
+| --- |: --- |
 | G (the ground symbol) | Green wire | 
 | N | Black wire | 
 | L | White wire | 
