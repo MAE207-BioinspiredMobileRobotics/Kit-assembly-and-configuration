@@ -59,6 +59,7 @@ Follow all instructions carefully! The general order of operations should be: 1)
 1. The power supply is connected to the wall using the provided 3-wire cord. Cut the 3-wire coord (__while unplugged!__) approximately 2 feet from the plug end. Strip the wires and connect the color codes to the power supply terminals (see the table below). Use two 12 gauge wires to connect the power supply to the ODrive. 
 
 _Note_: (on the power supply)  
+
 | Power supply terminal | Connected to |
 |-----------|:--------|
 | G (the ground symbol) | Green wire | 
