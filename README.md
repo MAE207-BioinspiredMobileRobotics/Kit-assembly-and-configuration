@@ -35,11 +35,11 @@ __Disclaimer: While we are using low-voltages (24V) it is still important to fol
 
 12. Surge protector
 
-13.Clamp
+13. r4z (1/4''-5/8'') bearings x3
 
-14.r4z (1/4''-5/8'') bearings x3
+14. Clamp
 
-15.(1/4-20) bolts and nuts x3 pairs
+15. (1/4-20) bolts & nuts & washers x3 pairs
 
 ## Mechanical setup (phase 1)
 
@@ -83,7 +83,10 @@ _Note_: (on the power supply)
   | SWCLK        | SWC|
   | SWDIO |   SWD|
   
+  
 5. Solder two lead wires to the shunt resistor and attach it to the ODrive board (__AUX__)
+
+![elec](elec.png)
   
 ![electronic connection odrive](1111.png)
 
