@@ -107,7 +107,7 @@ Now we finished all the electronic connection parts  (o_o)!
 
 3. Download the whole zip folder on the website and follow the steps in setting up the firmware [ODrive github firmware](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md)
 
-4.For Windows/Mac/Linux users, simply following the instructions on the ODrive [website](https://github.com/madcowswe/ODrive/blob/master/README.md#getting-started). For any questions you can email TA for help <mij032@ucsd.edu>
+4.For Windows/Mac/Linux users, simply following the instructions on the ODrive [website](https://github.com/madcowswe/ODrive/blob/master/README.md#getting-started). For any questions considering the firmware setups please e-mail TA for help <mij032@ucsd.edu>
 
 ## Testing communication and control of the motors without the legs
 
