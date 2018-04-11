@@ -132,7 +132,7 @@ Using the legs as a manipulator to draw your name (a pen should be inserted)
 ![combined5](combined5.png)
 
 
-TA Office Hour:
+## TA Office Hour:
 
 Room 311
 Mon. 4-5:30pm
