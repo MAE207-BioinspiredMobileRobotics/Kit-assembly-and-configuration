@@ -101,11 +101,13 @@ Now we finished all the electronic connection parts  (o_o)!
 
 ## Software configuration:
 
-1. Download Python 3 and Jupyter Lab as mentioned in class. (__Windows 10/8/7 can use Anaconda, install python and jupyter lab from there__) [Anaconda Downloads](https://www.anaconda.com/download/#linux)
+1. Download Python 3 and Jupyter Lab as mentioned in class. (__Windows 10/8/7 can use Anaconda-miniconda, install python and jupyter lab from there__) [Anaconda-miniconda Downloads](https://conda.io/miniconda.html). After finishing installing miniconda, we can simply install the __jupyter lab__ by type in ```conda install -c conda-forge jupyterlab ```. After this, we can type in ```jupyter lab``` in the prompt to start the program.
 
 2. Download VSCode for firmware flashing [VSCode](https://code.visualstudio.com/). This will be used to program the ODrive firmware.
 
 3. Download the whole zip folder on the website and follow the steps in setting up the firmware [ODrive github firmware](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md)
+
+4.For Windows/Mac/Linux users, simply following the instructions on the ODrive [website](https://github.com/madcowswe/ODrive/blob/master/README.md#getting-started). For any questions you can email TA for help <mij032@ucsd.edu>
 
 ## Testing communication and control of the motors without the legs
 
