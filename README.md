@@ -92,6 +92,9 @@ _Note_: (on the power supply)
 5. Solder two lead wires to the shunt resistor and attach it to the ODrive board (__AUX__)
 
 ![elec](elec.png)
+
+
+
 The Electrical connections should look like the image above. In (1) we show the power supply connections (__make sure to replace the cover and the plastic terminal covers before using!__). In (2) we show the motor & encoder connections to the ODrive and the power resistor. (3) Shows the encoders. (4) Shows the location of the programmer connections. 
 
 Now we finished all the electronic connection parts  (o_o)!
