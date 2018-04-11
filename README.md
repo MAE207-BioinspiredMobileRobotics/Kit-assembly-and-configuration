@@ -134,6 +134,7 @@ Using the legs as a manipulator to draw your name (a pen should be inserted)
 
 TA Office Hour:
 
+Room 311
 Mon. 4-5:30pm
 Thu. 2-3:30pm
 
