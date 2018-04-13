@@ -101,7 +101,7 @@ Now we finished all the electronic connection parts  (o_o)!
 
 ## Software configuration:
 
-1. Download Python 3 and Jupyter Lab as mentioned in class. (__Windows 10/8/7 can use Anaconda-miniconda, install python and jupyter lab from there__) [Anaconda](https://www.anaconda.com/download/). After finishing installing miniconda, we can simply install the __jupyter lab__ by type in ```conda install -c conda-forge jupyterlab ``` in the anaconda prompt (or just launch in the anaconda navigator). After this, we can type in ```jupyter lab``` in the prompt to start the program.
+1. Download Python 3 and Jupyter Lab as mentioned in class. (__Windows 10/8/7 can use Anaconda-miniconda, install python and jupyter lab from there__) [Anaconda](https://www.anaconda.com/download/). After finishing the installations, we can simply launch the __jupyter lab__ in the anaconda navigator). Anaconda Prompt is also useful in installing all useful python software and packages. 
 
 2. Download VSCode for firmware flashing [VSCode](https://code.visualstudio.com/). This will be used to program the ODrive firmware.
 
