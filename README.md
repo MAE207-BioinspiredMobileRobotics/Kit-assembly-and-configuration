@@ -137,10 +137,6 @@ Using the legs as a manipulator to draw your name (a pen should be inserted)
 ![combined5](combined5.png)
 
 
-## Office Hour:
-#### Professor: Wed. after class Room 311
-#### TA: Mon. 4-5:30pm ,  Thu. 2-3:30pm Room 311
-
 ```python
 
 ```
