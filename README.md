@@ -7,7 +7,7 @@ __Disclaimer: While we are using low-voltages (24V) it is still important to fol
 
 # Assembly instructions
 
-Follow all instructions carefully! The general order of operations should be: 1) encoder and motor mounting (but no legs), 2) configuring your programming environment and flashing the ODrive (follow all ODrive instructions carefully!), 3) Testing the ODrive through ```explore_odrive.py```, 4) Connect the legs.
+Follow all instructions carefully! The general order of operations should be: 1) encoder and motor mounting (most are already assembled), 2) configuring your programming environment following the 'Getting Started' [rules](https://docs.odriverobotics.com/) on the webist, 3) Testing the ODrive through ```explore_odrive.py```, 4) Connect the legs.
 
 
 ![The kit components](all1.png)
