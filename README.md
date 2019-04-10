@@ -88,7 +88,7 @@ _Note_: (on the power supply)
 ![elec](elec.png)
 
 
-The Electrical connections should look like the image above. In (1) we show the power supply connections (__make sure to replace the cover and the plastic terminal covers before using!__). In (2) we show the motor & encoder connections to the ODrive and the power resistor. (3) Shows the encoders. (4) shows the location of the programmer connections (not needed in this class!). 
+The Electrical connections should look like the image above. In (1) we show the power supply connections (__make sure to replace the cover and the plastic terminal covers before using!__). In (2) we show the motor & encoder connections to the ODrive and the power resistor. (3) Shows the encoders. (4) (__Possibly not need in this class!__). shows the location of the programmer connections 
 
 Now we finished all the electronic connection parts  (o_o)!
 
