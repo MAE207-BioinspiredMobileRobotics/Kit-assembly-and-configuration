@@ -17,7 +17,7 @@ Follow all instructions carefully! The general order of operations should be:
 4) Connect the legs.
 
 
-![The kit components](all1.png)
+![The kit components](overall1.jpg)
 
 ## Item list per group (2-3 ppl): 
 1. BLDC motors 335KV x2 (with M3x10mm bolts x8)
