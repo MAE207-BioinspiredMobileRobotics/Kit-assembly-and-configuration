@@ -16,7 +16,7 @@ Follow all instructions carefully! The general order of operations should be:
 
 4) Connect the legs.
 
-![kit component](overall_ss.png)
+![kit component](overall_ss.PNG)
 
 
 
