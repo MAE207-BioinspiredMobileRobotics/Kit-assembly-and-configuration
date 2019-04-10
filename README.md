@@ -104,13 +104,7 @@ Now we finished all the electronic connection parts  (o_o)!
 
 ## Software configuration:
 
-1. Download Python 3 and Jupyter Lab as mentioned in class. (__Windows 10/8/7 can use Anaconda-miniconda, install python and jupyter lab from there__) [Anaconda](https://www.anaconda.com/download/). After finishing the installations, we can simply launch the __jupyter lab__ in the anaconda navigator). Anaconda Prompt is also useful in installing all useful python software and packages. 
-
-2. Download VSCode for firmware flashing [VSCode](https://code.visualstudio.com/). This will be used to program the ODrive firmware.
-
-3. Download the whole zip folder on the website and follow the steps in setting up the firmware [ODrive github firmware](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md)
-
-4. For Windows/Mac/Linux users, simply following the instructions on the ODrive [website](https://docs.odriverobotics.com/). For any questions considering the firmware setups please e-mail TA for help <mij032@ucsd.edu>
+All instructions can be found on the [website](https://docs.odriverobotics.com/). This includes, setting up progamming environments for both Windows and Mac users, commands and different control modes. 
 
 ## Testing communication and control of the motors without the legs
 
@@ -132,7 +126,7 @@ Now we finished all the electronic connection parts  (o_o)!
 
 ## Attach legs
 
-3.Secure the legs directly onto the motors using long M3 bolts, run the example code as provided from the ODrive folder you downloaded. 
+Secure the legs directly onto the motors using long M3 bolts, run the example code as provided from the ODrive folder you downloaded. 
 
 Using the legs as a manipulator to draw your name! (a pen should be inserted)
 
