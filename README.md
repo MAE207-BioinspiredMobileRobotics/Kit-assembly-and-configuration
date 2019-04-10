@@ -21,39 +21,34 @@ Follow all instructions carefully! The general order of operations should be:
 
 
 ## Item list per group (2-3 ppl): 
-1. BLDC motors 335KV x2 (with M3x10mm bolts x8)
+1. BLDC motors 335KV x2 
 
-2. Laser cut legs and spacers x5
+2. Waterjet aluminum legs (distributed later) 
 
 3. 21A~24V DC power supply x1
 
-4. AMT 102 CUI encoder x2 (with 4 flat head M3 bolts)
+4. AMT 102 CUI encoder x2 (already mounted onto the motors)
 
-5. ODrive x1 BLDC driver
+5. ODrive (motor control board) x1
 
-6. M4 bolts x8 and nuts x8
+6. M4 bolts and drop in nuts (for 8020 T-slots) x4
 
-7. Jumper wires  (>=11)
+7. Jumper wires  x8
 
-8. 8020 T-slot aluminum frame x2
+8. 8020 T-slot aluminum extrusions x2
 
-9. allen wrench M2.5 x1
+9. allen wrench for M3 socket screws x1
 
-10. allen wrench M3 x1
+10. flat head screw driver x1
 
 11. 15ft power coord (will be chopped into three pieces for the power supply and motor cables)
 
-12. Surge protector
+12. Phillips head screw driver x1
 
-13. r4z (1/4''-5/8'') bearings x3
-
-14. Clamp
-
-15. (1/4-20) bolts & nuts & washers x3 pairs
 
 ## Mechanical setup (phase 1)
 
-1. Encoder connection: using 2 M3 bolts to connect the encoder on the back of the shaft of the DC motor.
+1. Mounting encoders (already done for you!)
 
 ![combined](combined1.png)
 
