@@ -46,7 +46,7 @@ Follow all instructions carefully! The general order of operations should be:
 12. Phillips head screw driver x1
 
 
-## Mechanical setup (phase 1)
+## Mechanical setup 
 
 1. Mounting encoders (already done for you!)
 
