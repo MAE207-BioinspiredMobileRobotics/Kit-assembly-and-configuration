@@ -19,7 +19,7 @@ Follow all instructions carefully! The general order of operations should be:
 
 ![The kit components](all1.png)
 
-## Item list (each group): 
+## Item list per group (2-3 ppl): 
 1. BLDC motors 335KV x2 (with M3x10mm bolts x8)
 
 2. Laser cut legs and spacers x5
