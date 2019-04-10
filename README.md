@@ -83,32 +83,22 @@ _Note_: (on the power supply)
   | Channel A |  A|
   | Channel B | B|
   
-4. Programmer connection is quite the same as the encoder, __GND has to be connected first!!__ [Ctrl+F --> "SWC" on this page](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md)
-  
-  | Programmer  | ODrive   |
-  |-----------|:--------|
-  | GND       | GND|
-  | SWCLK        | SWC|
-  | SWDIO |   SWD|
-  
-  
-5. Solder two lead wires to the shunt resistor and attach it to the ODrive board (__AUX__)
+4. An overall hardware connection is shown in this picture. (A shunt resistor needs to be soldered with 2 wires and be attached to the ODrive)
 
 ![elec](elec.png)
 
 
-
-The Electrical connections should look like the image above. In (1) we show the power supply connections (__make sure to replace the cover and the plastic terminal covers before using!__). In (2) we show the motor & encoder connections to the ODrive and the power resistor. (3) Shows the encoders. (4) Shows the location of the programmer connections. 
+The Electrical connections should look like the image above. In (1) we show the power supply connections (__make sure to replace the cover and the plastic terminal covers before using!__). In (2) we show the motor & encoder connections to the ODrive and the power resistor. (3) Shows the encoders. (4) shows the location of the programmer connections (not needed in this class!). 
 
 Now we finished all the electronic connection parts  (o_o)!
 
 ## Software configuration:
 
-All instructions can be found on the [website](https://docs.odriverobotics.com/). This includes, setting up progamming environments for both Windows and Mac users, commands and different control modes. 
+All instructions about software configuration can be found on the [website](https://docs.odriverobotics.com/). This includes, setting up progamming environments for both Windows and Mac users, commands and different control modes. 
 
 ## Testing communication and control of the motors without the legs
 
-1. Following the [instructions](https://github.com/madcowswe/ODrive/blob/master/Firmware/README.md) on the ODrive website setup the firmware. 
+1. Following the [instructions](https://docs.odriverobotics.com/) on the ODrive website setup the firmware. 
 
     a. Change the motor poles to 7.
     
