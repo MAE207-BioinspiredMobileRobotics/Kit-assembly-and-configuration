@@ -132,12 +132,12 @@ Now we finished all the electronic connection parts  (o_o)!
 
 ## Attach legs
 
-3.Put on the legs onto the motors using props(in the motor box), bolts and nuts (1/4''-20) and run the example code as provided from the ODrive folder you downloaded. 
+3.Secure the legs directly onto the motors using long M3 bolts, run the example code as provided from the ODrive folder you downloaded. 
 
-Using the legs as a manipulator to draw your name (a pen should be inserted)
+Using the legs as a manipulator to draw your name! (a pen should be inserted)
 
 
-![combined5](combined5.png)
+![combined5](final leg.PNG)
 
 
 ```python
