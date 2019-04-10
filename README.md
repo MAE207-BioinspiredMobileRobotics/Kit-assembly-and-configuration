@@ -12,7 +12,7 @@ Follow all instructions carefully! The general order of operations should be:
 1) Hardware assembly, including: encoder mounted onto the motors, motors secured onto the 8020 aluminums, and wire connections of motors and encoders with the ODrive (board needs to be powered with 24V PS). 
 2) Configuring your programming environment (using Python 3) following the 'Getting Started' [rules](https://docs.odriverobotics.com/).
 
-3) Testing the ODrive through ```explore_odrive.py```. 
+3) Testing the ODrive through the [instructions](https://docs.odriverobotics.com/).
 
 4) Connect the legs (not need for 4/10 Wed Section).
 
