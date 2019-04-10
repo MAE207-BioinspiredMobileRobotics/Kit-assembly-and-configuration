@@ -14,7 +14,7 @@ Follow all instructions carefully! The general order of operations should be:
 
 3) Testing the ODrive through ```explore_odrive.py```. 
 
-4) Connect the legs.
+4) Connect the legs (not need for 4/10 Wed Section).
 
 ![kit component](overall_ss.PNG)
 
