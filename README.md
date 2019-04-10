@@ -16,8 +16,7 @@ Follow all instructions carefully! The general order of operations should be:
 
 4) Connect the legs.
 
-
-<img src="https://github.com/MAE207-BioinspiredMobileRobotics/Kit-assembly-and-configuration/blob/master/overall12.jpg" height="800" width="420">
+![kit component](overall_ss.png)
 
 
 
