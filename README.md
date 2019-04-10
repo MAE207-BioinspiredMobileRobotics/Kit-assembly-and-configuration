@@ -87,8 +87,9 @@ _Note_: (on the power supply)
 
 ![elec](elec.png)
 
+5. Flashing the ODrive using the programmer such that when the ODrive starts, you will hear the "beep" sound and the motors start to calibrate themselves.
 
-The Electrical connections should look like the image above. In (1) we show the power supply connections (__make sure to replace the cover and the plastic terminal covers before using!__). In (2) we show the motor & encoder connections to the ODrive and the power resistor. (3) Shows the encoders. (4) (__Possibly not need in this class!__). shows the location of the programmer connections 
+The Electrical connections should look like the image above. In (1) we show the power supply connections (__make sure to replace the cover and the plastic terminal covers before using!__). In (2) we show the motor & encoder connections to the ODrive and the power resistor. (3) Shows the encoders. (4) shows the location of the programmer connections 
 
 Now we finished all the electronic connection parts  (o_o)!
 
