@@ -74,7 +74,7 @@ _Note_: (on the power supply)
 
 2. Motors (3 wires on each) connected to both M0 and M1 port. There are three wires coming out of the motor, the middle wire __MUST__ be connected to the middle terminal on the ODriver but the 1st and 3rd wires can be connected to either ODrive end (this will only affect the default rotating direction of the motor).
 
-3. Encoder must to be connected correctly using 4 jumper wires, __or the encoder will be burned!!__
+3. Encoder must to be connected correctly using 4 jumper wires to the ports showing (M0,M1 corresponding to the M0,M1 motors as well), __or the encoder will be burned!!__
   
   | Encoder   | ODrive   |
   |-----------|:--------|
