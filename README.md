@@ -52,7 +52,7 @@ Follow all instructions carefully! The general order of operations should be:
 
 ![combined](combined1.png)
 
-2. Fasten the motor on to the acrylic mounts then fasten the whole thing onto the 8020s, adjust the distance of the 2 motors as you want. 
+2. Fasten the motor on to the acrylic mounts then fasten the whole thing onto the 8020s.
 
 
 <img src="https://github.com/MAE207-BioinspiredMobileRobotics/Kit-assembly-and-configuration/blob/master/2nd.PNG" height="65%" width="65%">
