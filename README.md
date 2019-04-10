@@ -98,13 +98,11 @@ All instructions about software configuration can be found on the [website](http
 
 ## Testing communication and control of the motors without the legs
 
-1. Following the [instructions](https://docs.odriverobotics.com/) on the ODrive website setup the firmware. 
+1. Following the [instructions](https://docs.odriverobotics.com/) for simple commands of motor control (e.g. moving to a position or running at a constant speed). 
 
-    a. Change the motor poles to 7.
+    a. Change the motor magent pole pairs to 7 (if it is not 7).
     
     b. Verify the encoder CPR is 2048*4.
-    
-    c. Connect the programmer and build and flash the firmware.
 
 2. Open up a terminal and navigate to the folder with the ```explore_odrive.py``` file. 
 
@@ -113,6 +111,9 @@ All instructions about software configuration can be found on the [website](http
 4. Try and test the encoder. Run the command ``` print(my_drive.motor0.encoder.pll_pos,my_drive.motor0.encoder.pll_pos)```. (rotate the motor shaft and run this command again and you'll see the change.)
 
 5. Lastly move the motor a short distance. Run the command ``` my_drive.motor0.set_pos_setpoint (a1,a2,a3)```. (a1--position setpoint, a2--feedforward velocity, a3--feedforward current). The same with motor1 ``` my_drive.motor1.set_pos_setpoint (a1,a2,a3)```
+
+6. Step 2-5 can also be achived following the instructions online. 
+
 
 ## Attach legs
 
