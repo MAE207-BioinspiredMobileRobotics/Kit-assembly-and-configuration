@@ -107,14 +107,28 @@ Following the [instructions](https://docs.odriverobotics.com/) for simple comman
 
 
 
-## Attach legs
+## Leg assembly
 
-Secure the legs directly onto the motors using long M3 bolts, run the example code as provided from the ODrive folder you downloaded. 
+<img src="https://github.com/MAE207-BioinspiredMobileRobotics/Kit-assembly-and-configuration/blob/master/final_version.PNG" height="80%" width="80%">
 
-Using the legs as a manipulator to draw your name! (a pen should be inserted)
+In this part we will assemble the leg for simple practics of the motor-leg system.
+
+The hardware you need are:
+
+1. M3x16 screws x4
+2. M3x20 screws x4
+3. laser cut acrylic spacer x1 (to level up one leg for better alignment)
+4. waterjet aluminum leg pcs x4 (with 5x10 bearings already loctite in)
+5. M4 shoudler bolts x3
+6. shims (0.3/0.5mm) the number depends
 
 
-![combined5](final_leg.PNG)
+2 steps for building the motor-leg system:
+
+Step1: assembling the upper part of the legs.
+Notice that we have 4 pcs of leg components forming a closed loop geometry (parallel leg). Therefore, offseting one leg (using a piece of acrylic spacer) is crucial for overall alignment, which significantly reduces the friction. 
+
+
 
 
 ```python
