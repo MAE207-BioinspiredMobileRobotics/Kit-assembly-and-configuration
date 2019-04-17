@@ -132,7 +132,7 @@ Notice that we have 4 pcs of leg components forming a closed loop geometry (para
 
 Step2: Connecting the lower part of the legs using shoulder bolts.
 
-The shoulder bolt has a non-threaded clean cylinder part that can be used as a shaft to match with the bearing. However, the non-threaded part is a little longer than the thickness of the alumium legs we have. Therefore, using shims to raise the bolts up so that the assembled legs can be flash on surface is helpful. However, inserting too many shims will make your leg system frictional, for 2 things being pushed against each other too tightly will cause frictions. 
+The shoulder bolt has a non-threaded clean cylinder part that can be used as a shaft to match with the bearing. However, the non-threaded part is a little longer than the thickness of the alumium legs we have. Therefore, using shims to raise the bolts up so that the assembled legs can be flash on surface is helpful. However, inserting too many shims will make your leg system frictional, for any 2 legs being pushed against each other (by the bolt) will cause frictions between the surface when rotating. We just want a very little tiny gap between the 2 legs so that they can rotate freely.
 
 <img src="https://github.com/MAE207-BioinspiredMobileRobotics/Kit-assembly-and-configuration/blob/master/step2.PNG" height="70%" width="70%">
 
