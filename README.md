@@ -123,10 +123,10 @@ The hardware you need are:
 6. shims (0.3/0.5mm) the number depends
 
 
-2 steps for building the motor-leg system:
+#### 2 steps for building the motor-leg system:
 
 Step1: assembling the upper part of the legs.
-Notice that we have 4 pcs of leg components forming a closed loop geometry (parallel leg). Therefore, offseting one leg (using a piece of acrylic spacer) is crucial for overall alignment, which significantly reduces the friction. 
+Notice that we have 4 pcs of leg components forming a closed loop geometry (parallel leg). __Therefore, offseting one leg (using a piece of acrylic spacer) is crucial for overall alignment, which significantly reduces the friction.__ 
 
 <img src="https://github.com/MAE207-BioinspiredMobileRobotics/Kit-assembly-and-configuration/blob/master/step1.PNG" height="70%" width="70%">
 
